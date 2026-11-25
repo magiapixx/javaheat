@@ -1,0 +1,1342 @@
+import { t as e } from "./rolldown-runtime.Bi-D_2cA.mjs";
+import {
+  F as t,
+  M as n,
+  T as r,
+  b as ee,
+  c as te,
+  j as i,
+  l as a,
+  o,
+  p as s,
+  s as ne,
+  w as re,
+} from "./react.DfujhmXs.mjs";
+import { T as c, i as l, o as ie, t as ae } from "./motion.BoJ_50qN.mjs";
+import {
+  C as u,
+  E as d,
+  Et as f,
+  H as oe,
+  K as p,
+  L as m,
+  Ot as h,
+  S as se,
+  _t as ce,
+  a as g,
+  ct as le,
+  dt as ue,
+  f as _,
+  ft as de,
+  h as fe,
+  i as v,
+  k as pe,
+  lt as me,
+  mt as y,
+  r as he,
+  t as ge,
+  u as _e,
+  v as ve,
+  vt as ye,
+  wt as be,
+  xt as xe,
+  y as b,
+  yt as Se,
+  z as x,
+} from "./framer.DGJFnpg_.mjs";
+import { g as Ce, h as we } from "./toplevel-deps.XDVeXK4X.mjs";
+import { i as Te, r as Ee } from "./shared-lib.C0OaH8ZN.mjs";
+import { i as S, n as C, r as w, t as De } from "./GzMbxD0G0.KqlKB3xq.mjs";
+import { i as T, n as E, r as D, t as Oe } from "./CkbU37qav.BqWyj--f.mjs";
+import { i as O, n as k, r as A, t as ke } from "./P89o9sRK1.DNBvNxpc.mjs";
+import { i as j, n as M, r as Ae, t as je } from "./mOcxLNaxt.D2yYFsej.mjs";
+import { i as N, t as P } from "./zBTWiSfRK.CBeXZjSN.mjs";
+import { i as Me, n as Ne, r as Pe, t as Fe } from "./lR3sdILUN.CtI7Sz3I.mjs";
+import { i as F, n as Ie, r as I, t as Le } from "./mbODXwEBO.DVh8Mvma.mjs";
+import { i as Re, n as ze, r as L, t as Be } from "./v03SSkN8P.ClDd94vB.mjs";
+import { i as Ve, n as He, r as Ue, t as We } from "./prOpMcG3Y.2F0Qj1qz.mjs";
+import { n as Ge, t as Ke } from "./GRYfLB066.1cR48V0E.mjs";
+import { n as qe, t as Je } from "./vYZRaGVcX.CgT4L3ri.mjs";
+import { i as Ye, n as Xe, r as Ze, t as Qe } from "./l__4UHlzt.CgB8fUoM.mjs";
+import { i as $e, n as et, r as tt, t as nt } from "./skOo1vlpp.w5U5s6CS.mjs";
+import { i as rt, n as it, r as at, t as ot } from "./MeZWiiR9T.BKg6pz0X.mjs";
+import {
+  a as st,
+  c as ct,
+  i as lt,
+  n as ut,
+  o as dt,
+  r as ft,
+  s as pt,
+  t as mt,
+} from "./lyYguOueZ.6S-O2Sb9.mjs";
+import { a as ht, i as gt } from "./bSiIVuvYs.BptW1q43.mjs";
+var _t,
+  vt,
+  yt,
+  R,
+  z,
+  bt,
+  B,
+  xt,
+  St,
+  Ct,
+  wt,
+  Tt,
+  Et,
+  Dt,
+  V,
+  H,
+  Ot,
+  U,
+  W,
+  G,
+  kt,
+  K,
+  q,
+  At,
+  J,
+  Y,
+  jt,
+  X,
+  Mt,
+  Nt,
+  Pt,
+  Z,
+  Q,
+  Ft,
+  It,
+  Lt,
+  Rt,
+  zt,
+  Bt,
+  Vt,
+  Ht,
+  Ut,
+  Wt,
+  Gt,
+  $,
+  Kt;
+function qt() {
+  return (qt = e(() => {
+    (ne(),
+      p(),
+      ae(),
+      r(),
+      Te(),
+      Ce(),
+      Ge(),
+      qe(),
+      N(),
+      T(),
+      S(),
+      ct(),
+      Ye(),
+      Me(),
+      lt(),
+      F(),
+      rt(),
+      j(),
+      O(),
+      Ve(),
+      $e(),
+      Re(),
+      gt(),
+      (_t = m(Ke)),
+      (vt = h(g)),
+      (yt = h(u)),
+      (R = f(c.div)),
+      (z = f(u)),
+      (bt = m(we)),
+      (B = f(g)),
+      (xt = m(Je)),
+      (St = m(Ee)),
+      (Ct = {
+        GBnzb2JkF: `(min-width: 1200px)`,
+        o8WABkUdG: `(min-width: 810px) and (max-width: 1199.98px)`,
+        tRJaGC2sI: `(max-width: 809.98px)`,
+      }),
+      (wt = []),
+      (Tt = `framer-67cL4`),
+      (Et = {
+        GBnzb2JkF: `framer-v-1xnclli`,
+        o8WABkUdG: `framer-v-uljlvy`,
+        tRJaGC2sI: `framer-v-wn9nnk`,
+      }),
+      (Dt = (e, t, n) => (e && t ? `position` : n)),
+      (V = (e) => (Array.isArray(e) ? e.length > 0 : e != null && e !== ``)),
+      (H = { delay: 0, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Ot = {
+        opacity: 1,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: H,
+        x: 0,
+        y: 0,
+      }),
+      (U = {
+        opacity: 0.001,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 30,
+      }),
+      (W = (...e) => {
+        for (let t of e) if (t && typeof t == `string`) return t;
+      }),
+      (G = { delay: 0.05, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (kt = {
+        opacity: 1,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: G,
+        x: 0,
+        y: 0,
+      }),
+      (K = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 40,
+      }),
+      (q = { delay: 0.1, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (At = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: q,
+        x: 0,
+        y: 40,
+      }),
+      (J = (e) =>
+        typeof e == `object` && e && typeof e.src == `string`
+          ? e
+          : typeof e == `string`
+            ? { src: e }
+            : void 0),
+      (Y = { delay: 0.15, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (jt = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: Y,
+        x: 0,
+        y: 40,
+      }),
+      (X = { delay: 0.2, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Mt = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: X,
+        x: 0,
+        y: 40,
+      }),
+      (Nt = { delay: 0.25, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Pt = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: Nt,
+        x: 0,
+        y: 40,
+      }),
+      (Z = { delay: 0.3, duration: 0.45, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Q = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: Z,
+        x: 0,
+        y: 40,
+      }),
+      (Ft = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: H,
+        x: 0,
+        y: 40,
+      }),
+      (It = {
+        opacity: 0,
+        rotate: 0,
+        rotateX: 0,
+        rotateY: 0,
+        scale: 1,
+        skewX: 0,
+        skewY: 0,
+        transition: G,
+        x: 0,
+        y: 40,
+      }),
+      (Lt = (e, t) => ({ ...e, delay: (e.delay ?? 0) + t })),
+      (Rt = (e) => ({
+        from: { alias: `HdwCsIo8f`, data: P, type: `Collection` },
+        limit: { type: `LiteralValue`, value: 2 },
+        select: [
+          { collection: `HdwCsIo8f`, name: `kIllSH8oL`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `RcjclLkIy`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `EhZw2oGPC`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `NY1JAN3Dg`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `ilYZL2LIm`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `EQtUZjKlv`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `GEnNpt0Iw`, type: `Identifier` },
+          { collection: `HdwCsIo8f`, name: `id`, type: `Identifier` },
+        ],
+        where: {
+          operator: `not`,
+          type: `UnaryOperation`,
+          value: {
+            left: { collection: `HdwCsIo8f`, name: `id`, type: `Identifier` },
+            operator: `==`,
+            right: { type: `LiteralValue`, value: e },
+            type: `BinaryOperation`,
+          },
+        },
+      })),
+      (zt = ({ query: e, pageSize: t, children: n }) => n(Se(e))),
+      (Bt = ({ value: e }) =>
+        y()
+          ? null
+          : /*#__PURE__*/ o(`style`, {
+              dangerouslySetInnerHTML: { __html: e },
+              "data-framer-html-style": ``,
+            })),
+      (Vt = (e) => ({
+        from: { alias: `bSiIVuvYs`, data: P, type: `Collection` },
+        select: [
+          { collection: `bSiIVuvYs`, name: `RcjclLkIy`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `EhZw2oGPC`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `okl2KJaEX`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `NY1JAN3Dg`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `ilYZL2LIm`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `LU1kf4oJM`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `nDSa50sXR`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `pVVmPEOA1`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `vT_A9GVV0`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `kIllSH8oL`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `EQtUZjKlv`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `pWsjFynQR`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `wP3dG0J1a`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `FxUKi_7fZ`, type: `Identifier` },
+          { collection: `bSiIVuvYs`, name: `id`, type: `Identifier` },
+        ],
+        where: e,
+      })),
+      (Ht = { Desktop: `GBnzb2JkF`, Phone: `tRJaGC2sI`, Tablet: `o8WABkUdG` }),
+      (Ut = ({ height: e, id: t, width: n, ...r }) => ({
+        ...r,
+        variant: Ht[r.variant] ?? r.variant ?? `GBnzb2JkF`,
+      })),
+      (Wt = /*#__PURE__*/ s(function (e, r) {
+        let s = ee(null),
+          ne = r ?? s,
+          ae = re(),
+          { activeLocale: d, setLocale: f } = ce(),
+          p = le(),
+          m = me(),
+          [h] = Se(Vt(oe(m, `bSiIVuvYs`))),
+          y = (e) => {
+            if (!h) throw new fe(`No data matches path variables: ${JSON.stringify(m)}`);
+            return h[e];
+          },
+          {
+            style: be,
+            className: x,
+            layoutId: Ce,
+            variant: Te,
+            RcjclLkIy: S = y(`RcjclLkIy`) ?? ``,
+            EhZw2oGPC: C = y(`EhZw2oGPC`) ?? ``,
+            okl2KJaEX: w = y(`okl2KJaEX`) ?? ``,
+            NY1JAN3Dg: T = y(`NY1JAN3Dg`) ?? ``,
+            ilYZL2LIm: E = y(`ilYZL2LIm`) ?? ``,
+            LU1kf4oJM: D = y(`LU1kf4oJM`) ?? ``,
+            nDSa50sXR: O = y(`nDSa50sXR`) ?? ``,
+            pVVmPEOA1: k = y(`pVVmPEOA1`) ?? ``,
+            vT_A9GVV0: A = y(`vT_A9GVV0`) ?? ``,
+            kIllSH8oL: j = y(`kIllSH8oL`),
+            EQtUZjKlv: M = y(`EQtUZjKlv`),
+            pWsjFynQR: Ae = y(`pWsjFynQR`) ?? [],
+            wP3dG0J1a: N = y(`wP3dG0J1a`) ?? ``,
+            FxUKi_7fZ: P = y(`FxUKi_7fZ`) ?? ``,
+            id1: Me = y(`id`),
+            ...Ne
+          } = Ut(e),
+          Pe = n(() => ht({ kIllSH8oL: j, okl2KJaEX: w, RcjclLkIy: S }, d), [S, j, w, d]);
+        ye(Pe);
+        let [F, Ie] = de(Te, Ct, !1),
+          I = pe(Tt, Fe, ot, mt, st, nt, De, Oe, We, je, Qe, Le, ke, Be),
+          Re = i(_e)?.isLayoutTemplate,
+          ze = !!i(ie)?.transition?.layout,
+          L = Dt(Re, ze),
+          Ve = V(C),
+          He = V(j),
+          Ue = V(M),
+          Ge = V(N),
+          qe = V(P),
+          Ye = V(T),
+          Xe = V(E),
+          Ze = V(D),
+          $e = V(O),
+          et = V(k),
+          tt = V(A);
+        return (
+          xe(),
+          ue({}),
+          /*#__PURE__*/ o(_e.Provider, {
+            value: { primaryVariantId: `GBnzb2JkF`, variantClassNames: Et },
+            children: /*#__PURE__*/ a(l, {
+              id: Ce ?? ae,
+              children: [
+                /*#__PURE__*/ o(Bt, {
+                  value: `html body { background: var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, rgb(255, 255, 255)); }`,
+                }),
+                /*#__PURE__*/ a(c.div, {
+                  ...Ne,
+                  className: pe(I, `framer-1xnclli`, x),
+                  ref: ne,
+                  style: { ...be },
+                  children: [
+                    /*#__PURE__*/ a(c.main, {
+                      className: `framer-yv2mpj`,
+                      "data-framer-name": `Main`,
+                      layout: L,
+                      children: [
+                        /*#__PURE__*/ o(`section`, {
+                          className: `framer-1yumw98`,
+                          "data-framer-name": `Hero`,
+                          children: /*#__PURE__*/ a(`div`, {
+                            className: `framer-meh40p`,
+                            "data-framer-name": `Container`,
+                            children: [
+                              /*#__PURE__*/ a(`div`, {
+                                className: `framer-tukyd3`,
+                                "data-framer-name": `Info`,
+                                children: [
+                                  Ve !== !1 &&
+                                    /*#__PURE__*/ o(v, {
+                                      height: 29,
+                                      children: /*#__PURE__*/ o(vt, {
+                                        animate: Ot,
+                                        className: `framer-1o760a3-container`,
+                                        "data-framer-appear-id": `1o760a3`,
+                                        initial: U,
+                                        nodeId: `z3dLKnKc_`,
+                                        optimized: !0,
+                                        rendersWithMotion: !0,
+                                        scopeId: `bSiIVuvYs`,
+                                        children: /*#__PURE__*/ o(Ke, {
+                                          height: `100%`,
+                                          id: `z3dLKnKc_`,
+                                          layoutId: `z3dLKnKc_`,
+                                          variant: W(`rrUoy8uQo`),
+                                          vOUUEJJrj: C,
+                                          width: `100%`,
+                                        }),
+                                      }),
+                                    }),
+                                  /*#__PURE__*/ o(yt, {
+                                    __fromCanvasComponent: !0,
+                                    animate: kt,
+                                    children: /*#__PURE__*/ o(t, {
+                                      children: /*#__PURE__*/ o(`h1`, {
+                                        className: `framer-styles-preset-891qt7`,
+                                        "data-styles-preset": `lR3sdILUN`,
+                                        style: {
+                                          "--framer-text-alignment": `center`,
+                                          "--framer-text-color": `var(--token-43b469ce-b401-42e9-acb2-b8858a02bef4, rgb(21, 21, 21))`,
+                                        },
+                                        children: `Lightweight castings for Industrial equipment`,
+                                      }),
+                                    }),
+                                    className: `framer-2dkyck`,
+                                    "data-framer-appear-id": `2dkyck`,
+                                    "data-framer-name": `Title`,
+                                    fonts: [`Inter`],
+                                    initial: U,
+                                    optimized: !0,
+                                    text: S,
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ a(R, {
+                                __framer__animate: { transition: q },
+                                __framer__animateOnce: !0,
+                                __framer__enter: K,
+                                __framer__exit: At,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-1jfhf51`,
+                                "data-framer-name": `Image`,
+                                children: [
+                                  He !== !1 &&
+                                    /*#__PURE__*/ o(b, {
+                                      breakpoint: F,
+                                      overrides: {
+                                        tRJaGC2sI: {
+                                          background: {
+                                            alt: ``,
+                                            fit: `fill`,
+                                            sizes: `max((min(${p?.width || `100vw`}, 1360px) - 32px) / 0, 1px)`,
+                                            ...J(j),
+                                          },
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ o(_, {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          sizes: `max((min(${p?.width || `100vw`}, 1360px) - 60px) / 0, 1px)`,
+                                          ...J(j),
+                                        },
+                                        className: `framer-1rbzrg0`,
+                                        "data-framer-name": `Image`,
+                                        fitImageDimension: `height`,
+                                      }),
+                                    }),
+                                  Ue !== !1 &&
+                                    /*#__PURE__*/ o(b, {
+                                      breakpoint: F,
+                                      overrides: {
+                                        tRJaGC2sI: {
+                                          background: {
+                                            alt: `Client Logo`,
+                                            fit: `fit`,
+                                            pixelHeight: 24,
+                                            pixelWidth: 115,
+                                            sizes: `80px`,
+                                            ...J(M),
+                                            positionX: `center`,
+                                            positionY: `center`,
+                                          },
+                                        },
+                                      },
+                                      children: /*#__PURE__*/ o(_, {
+                                        background: {
+                                          alt: `Client Logo`,
+                                          fit: `fit`,
+                                          pixelHeight: 24,
+                                          pixelWidth: 115,
+                                          sizes: `160px`,
+                                          ...J(M),
+                                          positionX: `center`,
+                                          positionY: `center`,
+                                        },
+                                        className: `framer-24i6y`,
+                                        "data-framer-name": `Client Logo`,
+                                        fitImageDimension: `height`,
+                                      }),
+                                    }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                        /*#__PURE__*/ o(`section`, {
+                          className: `framer-sbhk45`,
+                          "data-framer-name": `Case Study Detail`,
+                          children: /*#__PURE__*/ a(`div`, {
+                            className: `framer-12zbre8`,
+                            "data-framer-name": `Container`,
+                            children: [
+                              Ge !== !1 &&
+                                /*#__PURE__*/ o(he, {
+                                  presets: {},
+                                  children: /*#__PURE__*/ o(b, {
+                                    breakpoint: F,
+                                    overrides: {
+                                      tRJaGC2sI: {
+                                        stylesPresetsClassNames: {
+                                          h1: `framer-styles-preset-891qt7`,
+                                          h2: `framer-styles-preset-uvaaz7`,
+                                          h3: `framer-styles-preset-1h3w83t`,
+                                          h4: `framer-styles-preset-13c0m4d`,
+                                          h5: `framer-styles-preset-gvpqeb`,
+                                          h6: `framer-styles-preset-1yngv0g`,
+                                          p: `framer-styles-preset-ecqg04`,
+                                        },
+                                      },
+                                    },
+                                    children: /*#__PURE__*/ o(z, {
+                                      __framer__animate: { transition: Y },
+                                      __framer__animateOnce: !0,
+                                      __framer__enter: K,
+                                      __framer__exit: jt,
+                                      __framer__styleAppearEffectEnabled: !0,
+                                      __framer__threshold: 0,
+                                      __fromCanvasComponent: !0,
+                                      __perspectiveFX: !1,
+                                      __targetOpacity: 1,
+                                      children: N,
+                                      className: `framer-1erzhe5`,
+                                      "data-framer-name": `Content`,
+                                      fonts: [`Inter`],
+                                      stylesPresetsClassNames: {
+                                        h1: `framer-styles-preset-891qt7`,
+                                        h2: `framer-styles-preset-uvaaz7`,
+                                        h3: `framer-styles-preset-1h3w83t`,
+                                        h4: `framer-styles-preset-13c0m4d`,
+                                        h5: `framer-styles-preset-gvpqeb`,
+                                        h6: `framer-styles-preset-1f8or04`,
+                                        p: `framer-styles-preset-ecqg04`,
+                                      },
+                                      verticalAlignment: `top`,
+                                      withExternalLayout: !0,
+                                    }),
+                                  }),
+                                }),
+                              /*#__PURE__*/ o(R, {
+                                __framer__animate: { transition: X },
+                                __framer__animateOnce: !0,
+                                __framer__enter: K,
+                                __framer__exit: Mt,
+                                __framer__styleAppearEffectEnabled: !0,
+                                __framer__threshold: 0,
+                                __perspectiveFX: !1,
+                                __targetOpacity: 1,
+                                className: `framer-mozprl`,
+                                children: Ae?.map(({ id: e, IHpaciUws: t }, n) =>
+                                  /*#__PURE__*/ o(
+                                    l,
+                                    {
+                                      id: `A098TtK1x-${e ?? n}`,
+                                      children: /*#__PURE__*/ o(`div`, {
+                                        className: `framer-g31afi`,
+                                        children: /*#__PURE__*/ o(b, {
+                                          breakpoint: F,
+                                          overrides: {
+                                            o8WABkUdG: {
+                                              lightbox: {
+                                                backdrop: `var(--token-41dbab4b-4d8a-40dc-a562-4b7709d86f82, rgba(92, 92, 92, 0.2))`,
+                                                maxWidth: 300,
+                                                padding: 20,
+                                                transition: H,
+                                                zIndex: 10,
+                                              },
+                                            },
+                                            tRJaGC2sI: {
+                                              background: {
+                                                alt: ``,
+                                                fit: `fill`,
+                                                sizes: `max((min(${p?.width || `100vw`}, 700px) - 72px) / 3, 1px)`,
+                                                ...J(t),
+                                              },
+                                              lightbox: {
+                                                backdrop: `var(--token-41dbab4b-4d8a-40dc-a562-4b7709d86f82, rgba(92, 92, 92, 0.2))`,
+                                                maxWidth: 300,
+                                                padding: 20,
+                                                transition: H,
+                                                zIndex: 10,
+                                              },
+                                            },
+                                          },
+                                          children: /*#__PURE__*/ o(_, {
+                                            background: {
+                                              alt: ``,
+                                              fit: `fill`,
+                                              sizes: `max((min(${p?.width || `100vw`}, 700px) - 100px) / 3, 1px)`,
+                                              ...J(t),
+                                            },
+                                            className: `framer-msugrw`,
+                                            "data-framer-name": `Image`,
+                                            fitImageDimension: `height`,
+                                            id: `msugrw`,
+                                            lightbox: {
+                                              backdrop: `var(--token-41dbab4b-4d8a-40dc-a562-4b7709d86f82, rgba(92, 92, 92, 0.2))`,
+                                              maxWidth: 500,
+                                              padding: 20,
+                                              transition: H,
+                                              zIndex: 10,
+                                            },
+                                            lightboxClassName: I,
+                                          }),
+                                        }),
+                                      }),
+                                    },
+                                    e ?? n
+                                  )
+                                ),
+                              }),
+                              /*#__PURE__*/ a(`div`, {
+                                className: `framer-kcm7jc`,
+                                "data-framer-name": `Content Info`,
+                                children: [
+                                  qe !== !1 &&
+                                    /*#__PURE__*/ o(he, {
+                                      presets: {},
+                                      children: /*#__PURE__*/ o(z, {
+                                        __framer__animate: { transition: Nt },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: K,
+                                        __framer__exit: Pt,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__threshold: 0,
+                                        __fromCanvasComponent: !0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        children: P,
+                                        className: `framer-ec1x6o`,
+                                        "data-framer-name": `Content 2`,
+                                        fonts: [`Inter`],
+                                        stylesPresetsClassNames: {
+                                          h1: `framer-styles-preset-891qt7`,
+                                          h2: `framer-styles-preset-uvaaz7`,
+                                          h3: `framer-styles-preset-1b4mdza`,
+                                          h4: `framer-styles-preset-ujbs82`,
+                                          h5: `framer-styles-preset-11zt07t`,
+                                          h6: `framer-styles-preset-1f8or04`,
+                                          p: `framer-styles-preset-ecqg04`,
+                                        },
+                                        verticalAlignment: `top`,
+                                        withExternalLayout: !0,
+                                      }),
+                                    }),
+                                  /*#__PURE__*/ a(`div`, {
+                                    className: `framer-1ytnpob`,
+                                    "data-framer-name": `List`,
+                                    children: [
+                                      /*#__PURE__*/ a(R, {
+                                        __framer__animate: { transition: Z },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: K,
+                                        __framer__exit: Q,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__threshold: 0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        className: `framer-ghsh0u`,
+                                        "data-framer-name": `1`,
+                                        children: [
+                                          Ye !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`h6`, {
+                                                  className: `framer-styles-preset-1f8or04`,
+                                                  "data-styles-preset": `GzMbxD0G0`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-43b469ce-b401-42e9-acb2-b8858a02bef4, rgb(21, 21, 21))`,
+                                                  },
+                                                  children: `35%`,
+                                                }),
+                                              }),
+                                              className: `framer-1ibmfkv`,
+                                              fonts: [`Inter`],
+                                              text: T,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          Xe !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`p`, {
+                                                  className: `framer-styles-preset-15frtqy`,
+                                                  "data-styles-preset": `P89o9sRK1`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-d95eaf67-fb04-4bd1-b9e3-229e9e2eed16, rgb(92, 92, 92))`,
+                                                  },
+                                                  children: `Heavy-duty machinery`,
+                                                }),
+                                              }),
+                                              className: `framer-18b6bf7`,
+                                              "data-framer-name": `Scope Text`,
+                                              fonts: [`Inter`],
+                                              text: E,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ a(R, {
+                                        __framer__animate: { transition: Z },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: K,
+                                        __framer__exit: Q,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__threshold: 0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        className: `framer-bixmj0`,
+                                        "data-framer-name": `2`,
+                                        children: [
+                                          Ze !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`h6`, {
+                                                  className: `framer-styles-preset-1f8or04`,
+                                                  "data-styles-preset": `GzMbxD0G0`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-43b469ce-b401-42e9-acb2-b8858a02bef4, rgb(21, 21, 21))`,
+                                                  },
+                                                  children: `35%`,
+                                                }),
+                                              }),
+                                              className: `framer-yl4285`,
+                                              fonts: [`Inter`],
+                                              text: D,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          $e !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`p`, {
+                                                  className: `framer-styles-preset-15frtqy`,
+                                                  "data-styles-preset": `P89o9sRK1`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-d95eaf67-fb04-4bd1-b9e3-229e9e2eed16, rgb(92, 92, 92))`,
+                                                  },
+                                                  children: `Increase in overall efficiency`,
+                                                }),
+                                              }),
+                                              className: `framer-1q3iyk4`,
+                                              "data-framer-name": `Scope Text`,
+                                              fonts: [`Inter`],
+                                              text: O,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                        ],
+                                      }),
+                                      /*#__PURE__*/ a(R, {
+                                        __framer__animate: { transition: Z },
+                                        __framer__animateOnce: !0,
+                                        __framer__enter: K,
+                                        __framer__exit: Q,
+                                        __framer__styleAppearEffectEnabled: !0,
+                                        __framer__threshold: 0,
+                                        __perspectiveFX: !1,
+                                        __targetOpacity: 1,
+                                        className: `framer-1uvohxw`,
+                                        "data-framer-name": `3`,
+                                        children: [
+                                          et !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`h6`, {
+                                                  className: `framer-styles-preset-1f8or04`,
+                                                  "data-styles-preset": `GzMbxD0G0`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-43b469ce-b401-42e9-acb2-b8858a02bef4, rgb(21, 21, 21))`,
+                                                  },
+                                                  children: `35%`,
+                                                }),
+                                              }),
+                                              className: `framer-1socvsw`,
+                                              fonts: [`Inter`],
+                                              text: k,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                          tt !== !1 &&
+                                            /*#__PURE__*/ o(u, {
+                                              __fromCanvasComponent: !0,
+                                              children: /*#__PURE__*/ o(t, {
+                                                children: /*#__PURE__*/ o(`p`, {
+                                                  className: `framer-styles-preset-15frtqy`,
+                                                  "data-styles-preset": `P89o9sRK1`,
+                                                  style: {
+                                                    "--framer-text-color": `var(--token-d95eaf67-fb04-4bd1-b9e3-229e9e2eed16, rgb(92, 92, 92))`,
+                                                  },
+                                                  children: `Quality compliance across products`,
+                                                }),
+                                              }),
+                                              className: `framer-otmt18`,
+                                              "data-framer-name": `Scope Text`,
+                                              fonts: [`Inter`],
+                                              text: A,
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                        /*#__PURE__*/ o(`section`, {
+                          className: `framer-1w3jbb1`,
+                          "data-framer-name": `Other Case Study`,
+                          children: /*#__PURE__*/ a(`div`, {
+                            className: `framer-1vkvhiw`,
+                            "data-framer-name": `Container`,
+                            children: [
+                              /*#__PURE__*/ a(`div`, {
+                                className: `framer-zu1m8l`,
+                                "data-framer-name": `Title`,
+                                children: [
+                                  /*#__PURE__*/ o(z, {
+                                    __framer__animate: { transition: H },
+                                    __framer__animateOnce: !0,
+                                    __framer__enter: K,
+                                    __framer__exit: Ft,
+                                    __framer__styleAppearEffectEnabled: !0,
+                                    __framer__threshold: 0,
+                                    __fromCanvasComponent: !0,
+                                    __perspectiveFX: !1,
+                                    __targetOpacity: 1,
+                                    children: /*#__PURE__*/ o(t, {
+                                      children: /*#__PURE__*/ o(`h2`, {
+                                        className: `framer-styles-preset-2r53jr`,
+                                        "data-styles-preset": `v03SSkN8P`,
+                                        style: {
+                                          "--framer-text-alignment": `left`,
+                                          "--framer-text-color": `var(--token-43b469ce-b401-42e9-acb2-b8858a02bef4, rgb(21, 21, 21))`,
+                                        },
+                                        children: `Other case studies`,
+                                      }),
+                                    }),
+                                    className: `framer-uiw3m2`,
+                                    "data-framer-name": `Title`,
+                                    fonts: [`Inter`],
+                                    verticalAlignment: `top`,
+                                    withExternalLayout: !0,
+                                  }),
+                                  /*#__PURE__*/ o(se, {
+                                    links: [
+                                      {
+                                        href: { webPageId: `B7oZ2fVBR` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `B7oZ2fVBR` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `B7oZ2fVBR` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                    ],
+                                    children: (e) =>
+                                      /*#__PURE__*/ o(v, {
+                                        height: 52,
+                                        children: /*#__PURE__*/ o(B, {
+                                          __framer__animate: { transition: G },
+                                          __framer__animateOnce: !0,
+                                          __framer__enter: K,
+                                          __framer__exit: It,
+                                          __framer__styleAppearEffectEnabled: !0,
+                                          __framer__threshold: 0,
+                                          __perspectiveFX: !1,
+                                          __targetOpacity: 1,
+                                          className: `framer-uvhs7e-container`,
+                                          nodeId: `IF2r6Q2VV`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `bSiIVuvYs`,
+                                          children: /*#__PURE__*/ o(b, {
+                                            breakpoint: F,
+                                            overrides: {
+                                              o8WABkUdG: {
+                                                gr8i9ifqK: e[1],
+                                                variant: W(`dOxXB05ZG`),
+                                              },
+                                              tRJaGC2sI: {
+                                                gr8i9ifqK: e[2],
+                                                variant: W(`dOxXB05ZG`),
+                                              },
+                                            },
+                                            children: /*#__PURE__*/ o(we, {
+                                              gr8i9ifqK: e[0],
+                                              height: `100%`,
+                                              id: `IF2r6Q2VV`,
+                                              layoutId: `IF2r6Q2VV`,
+                                              LkRCOsI08: `See all case study`,
+                                              variant: W(`h0EkrDRDh`),
+                                              width: `100%`,
+                                              xgHJht2Sv: !1,
+                                            }),
+                                          }),
+                                        }),
+                                      }),
+                                  }),
+                                ],
+                              }),
+                              /*#__PURE__*/ o(`div`, {
+                                className: `framer-1ccxr06`,
+                                children: /*#__PURE__*/ o(ge, {
+                                  children: /*#__PURE__*/ o(zt, {
+                                    query: Rt(Me),
+                                    children: (e, t, n) =>
+                                      /*#__PURE__*/ o(te, {
+                                        children: e?.map(
+                                          (
+                                            {
+                                              EhZw2oGPC: e,
+                                              EQtUZjKlv: t,
+                                              GEnNpt0Iw: n,
+                                              id: r,
+                                              ilYZL2LIm: ee,
+                                              kIllSH8oL: te,
+                                              NY1JAN3Dg: i,
+                                              RcjclLkIy: a,
+                                            },
+                                            s
+                                          ) => (
+                                            (a ??= ``),
+                                            (e ??= ``),
+                                            (i ??= ``),
+                                            (ee ??= ``),
+                                            (n ??= ``),
+                                            /*#__PURE__*/ o(
+                                              l,
+                                              {
+                                                id: `HdwCsIo8f-${r}`,
+                                                children: /*#__PURE__*/ o(ve.Provider, {
+                                                  value: { GEnNpt0Iw: n },
+                                                  children: /*#__PURE__*/ o(`div`, {
+                                                    className: `framer-upod81`,
+                                                    children: /*#__PURE__*/ o(se, {
+                                                      links: [
+                                                        {
+                                                          href: {
+                                                            pathVariables: { GEnNpt0Iw: n },
+                                                            webPageId: `bSiIVuvYs`,
+                                                          },
+                                                          implicitPathVariables: void 0,
+                                                        },
+                                                        {
+                                                          href: {
+                                                            pathVariables: { GEnNpt0Iw: n },
+                                                            webPageId: `bSiIVuvYs`,
+                                                          },
+                                                          implicitPathVariables: void 0,
+                                                        },
+                                                        {
+                                                          href: {
+                                                            pathVariables: { GEnNpt0Iw: n },
+                                                            webPageId: `bSiIVuvYs`,
+                                                          },
+                                                          implicitPathVariables: void 0,
+                                                        },
+                                                      ],
+                                                      children: (n) =>
+                                                        /*#__PURE__*/ o(b, {
+                                                          breakpoint: F,
+                                                          overrides: {
+                                                            tRJaGC2sI: {
+                                                              height: 280,
+                                                              width: `max(min(max(${p?.width || `100vw`}, 1px), 1360px) - 32px, 50px)`,
+                                                            },
+                                                          },
+                                                          children: /*#__PURE__*/ o(v, {
+                                                            width: `max((min(max(${p?.width || `100vw`}, 1px), 1360px) - 90px) / 2, 50px)`,
+                                                            children: /*#__PURE__*/ o(B, {
+                                                              __framer__animate: {
+                                                                transition: Lt(H, s * 0.1),
+                                                              },
+                                                              __framer__animateOnce: !0,
+                                                              __framer__enter: K,
+                                                              __framer__exit: Ft,
+                                                              __framer__styleAppearEffectEnabled:
+                                                                !0,
+                                                              __framer__threshold: 0,
+                                                              __perspectiveFX: !1,
+                                                              __targetOpacity: 1,
+                                                              className: `framer-1x5ztr-container`,
+                                                              nodeId: `Qs2Mrio7y`,
+                                                              rendersWithMotion: !0,
+                                                              scopeId: `bSiIVuvYs`,
+                                                              children: /*#__PURE__*/ o(b, {
+                                                                breakpoint: F,
+                                                                overrides: {
+                                                                  o8WABkUdG: {
+                                                                    enmW0lZlE: n[1],
+                                                                    variant: W(`FtbjFRTO3`),
+                                                                  },
+                                                                  tRJaGC2sI: {
+                                                                    enmW0lZlE: n[2],
+                                                                    style: { width: `100%` },
+                                                                    variant: W(`SHNqLHdNg`),
+                                                                  },
+                                                                },
+                                                                children: /*#__PURE__*/ o(Je, {
+                                                                  cIx_IJNIR: J(te),
+                                                                  enmW0lZlE: n[0],
+                                                                  gwO5NAlgC: e,
+                                                                  height: `100%`,
+                                                                  id: `Qs2Mrio7y`,
+                                                                  layoutId: `Qs2Mrio7y`,
+                                                                  na1mgkHQT: ee,
+                                                                  OrhXXid_A: J(t),
+                                                                  style: {
+                                                                    height: `100%`,
+                                                                    width: `100%`,
+                                                                  },
+                                                                  swALXvpK7: i,
+                                                                  swJLO07rV: a,
+                                                                  variant: W(`fXTT0XQVd`),
+                                                                  width: `100%`,
+                                                                }),
+                                                              }),
+                                                            }),
+                                                          }),
+                                                        }),
+                                                    }),
+                                                  }),
+                                                }),
+                                              },
+                                              r
+                                            )
+                                          )
+                                        ),
+                                      }),
+                                  }),
+                                }),
+                              }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                    /*#__PURE__*/ o(v, {
+                      children: /*#__PURE__*/ o(g, {
+                        className: `framer-1valne3-container`,
+                        isAuthoredByUser: !0,
+                        isModuleExternal: !0,
+                        layout: L,
+                        nodeId: `f9uZreuhM`,
+                        scopeId: `bSiIVuvYs`,
+                        children: /*#__PURE__*/ o(Ee, {
+                          height: `100%`,
+                          id: `f9uZreuhM`,
+                          intensity: 25,
+                          layoutId: `f9uZreuhM`,
+                          width: `100%`,
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+                /*#__PURE__*/ o(`div`, { id: `overlay` }),
+              ],
+            }),
+          })
+        );
+      })),
+      (Gt = [
+        `@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,
+        `.framer-67cL4.framer-ffba48, .framer-67cL4 .framer-ffba48 { display: block; }`,
+        `.framer-67cL4.framer-1xnclli { align-content: center; align-items: center; background-color: var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, #ffffff); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-67cL4 .framer-yv2mpj { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1yumw98 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; padding: 180px 0px 0px 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-meh40p { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: flex-start; max-width: 1360px; padding: 0px 30px 0px 30px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-tukyd3, .framer-67cL4 .framer-kcm7jc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1o760a3-container { flex: none; height: auto; position: relative; width: auto; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-67cL4 .framer-2dkyck { --framer-text-wrap-override: balance; flex: none; height: auto; position: relative; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-67cL4 .framer-1jfhf51 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1rbzrg0 { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-67cL4 .framer-24i6y { flex: none; height: auto; left: 40px; overflow: visible; position: absolute; top: 40px; width: 160px; }`,
+        `.framer-67cL4 .framer-sbhk45 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; padding: 100px 0px 0px 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-12zbre8 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 700px; padding: 0px 30px 0px 30px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1erzhe5, .framer-67cL4 .framer-ec1x6o { --framer-paragraph-spacing: 10px; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-67cL4 .framer-mozprl { display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(3, minmax(1px, 1fr)); height: min-content; justify-content: start; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-g31afi { align-content: center; align-items: center; align-self: start; background-color: var(--token-41dbab4b-4d8a-40dc-a562-4b7709d86f82, rgba(92, 92, 92, 0.6)); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: center; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-67cL4 .framer-msugrw { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; cursor: zoom-in; flex: 1 0 0px; height: auto; overflow: hidden; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-67cL4 .framer-1ytnpob { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 20px 20px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-ghsh0u { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-67cL4 .framer-1ibmfkv, .framer-67cL4 .framer-yl4285, .framer-67cL4 .framer-1socvsw { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-67cL4 .framer-18b6bf7, .framer-67cL4 .framer-1q3iyk4, .framer-67cL4 .framer-otmt18 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; --framer-text-wrap-override: balance; flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-bixmj0, .framer-67cL4 .framer-1uvohxw { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-67cL4 .framer-1w3jbb1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 200px 0px 200px 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1vkvhiw { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: flex-start; max-width: 1360px; padding: 0px 30px 0px 30px; position: relative; width: 1px; }`,
+        `.framer-67cL4 .framer-zu1m8l { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-uiw3m2 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-67cL4 .framer-uvhs7e-container, .framer-67cL4 .framer-1valne3-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-67cL4 .framer-1ccxr06 { display: grid; flex: none; gap: 50px 30px; grid-auto-rows: min-content; grid-template-columns: repeat(2, minmax(50px, 1fr)); height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-upod81 { align-content: center; align-items: center; align-self: start; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 30px; height: 100%; justify-content: flex-start; justify-self: start; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-67cL4 .framer-1x5ztr-container { flex: 1 0 0px; height: 100%; position: relative; width: 1px; }`,
+        ...Ne,
+        ...it,
+        ...ut,
+        ...dt,
+        ...et,
+        ...C,
+        ...E,
+        ...He,
+        ...M,
+        ...Xe,
+        ...Ie,
+        ...k,
+        ...ze,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-67cL4.framer-1xnclli { width: 810px; } .framer-67cL4 .framer-1yumw98 { padding: 130px 0px 0px 0px; } .framer-67cL4 .framer-sbhk45 { padding: 80px 0px 0px 0px; } .framer-67cL4 .framer-1w3jbb1 { padding: 140px 0px 140px 0px; } .framer-67cL4 .framer-1ccxr06 { gap: 40px 30px; }}`,
+        `@media (max-width: 809.98px) { .framer-67cL4.framer-1xnclli { width: 390px; } .framer-67cL4 .framer-1yumw98 { padding: 110px 0px 0px 0px; } .framer-67cL4 .framer-meh40p, .framer-67cL4 .framer-12zbre8, .framer-67cL4 .framer-1vkvhiw { gap: 40px; padding: 0px 16px 0px 16px; } .framer-67cL4 .framer-tukyd3 { gap: 16px; } .framer-67cL4 .framer-24i6y { left: 16px; top: 16px; width: 80px; } .framer-67cL4 .framer-sbhk45 { padding: 40px 0px 0px 0px; } .framer-67cL4 .framer-1ytnpob { flex-direction: column; } .framer-67cL4 .framer-ghsh0u, .framer-67cL4 .framer-bixmj0, .framer-67cL4 .framer-1uvohxw, .framer-67cL4 .framer-uiw3m2 { flex: none; width: 100%; } .framer-67cL4 .framer-1w3jbb1 { padding: 100px 0px 100px 0px; } .framer-67cL4 .framer-zu1m8l { align-content: flex-start; align-items: flex-start; flex-direction: column; gap: 16px; } .framer-67cL4 .framer-1ccxr06 { gap: 30px 30px; grid-template-columns: repeat(1, minmax(50px, 1fr)); } .framer-67cL4 .framer-upod81 { height: min-content; } .framer-67cL4 .framer-1x5ztr-container { height: auto; }}`,
+      ]),
+      ($ = be(Wt, Gt, `framer-67cL4`)),
+      ($.displayName = `case study`),
+      ($.defaultProps = { height: 3918, width: 1200 }),
+      d(
+        $,
+        [
+          {
+            explicitInter: !0,
+            fonts: [
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+                url: `../../assets/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+                url: `../../assets/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+1F00-1FFF`,
+                url: `../../assets/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0370-03FF`,
+                url: `../../assets/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+                url: `../../assets/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `../../assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
+                weight: `400`,
+              },
+              {
+                cssFamilyName: `Inter`,
+                source: `framer`,
+                style: `normal`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+                url: `../../assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
+                weight: `400`,
+              },
+            ],
+          },
+          ..._t,
+          ...bt,
+          ...xt,
+          ...St,
+          ...x(Pe),
+          ...x(at),
+          ...x(ft),
+          ...x(pt),
+          ...x(tt),
+          ...x(w),
+          ...x(D),
+          ...x(Ue),
+          ...x(Ae),
+          ...x(Ze),
+          ...x(I),
+          ...x(A),
+          ...x(L),
+        ],
+        { supportsExplicitInterCodegen: !0 }
+      ),
+      (Kt = {
+        exports: {
+          Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
+          urlVariableNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          default: {
+            type: `reactComponent`,
+            name: `FramerbSiIVuvYs`,
+            slots: [],
+            annotations: {
+              framerLayoutTemplateFlowEffect: `true`,
+              framerIntrinsicHeight: `3918`,
+              framerComponentViewportWidth: `true`,
+              framerAcceptsLayoutTemplate: `true`,
+              framerResponsiveScreen: `true`,
+              framerColorSyntax: `true`,
+              framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"o8WABkUdG":{"layout":["fixed","auto"]},"tRJaGC2sI":{"layout":["fixed","auto"]}}}`,
+              framerImmutableVariables: `true`,
+              framerContractVersion: `1`,
+              framerIntrinsicWidth: `1200`,
+              framerAutoSizeImages: `true`,
+              framerScrollSections: `false`,
+              framerDisplayContentsDiv: `false`,
+            },
+          },
+          __FramerMetadata__: { type: `variable` },
+        },
+      }));
+  }))();
+}
+qt();
+export { Kt as __FramerMetadata__, $ as default, wt as urlVariableNames };
+//# sourceMappingURL=bRWaxBJJn_jJy_pSP7FonjRVkVErI-yv4kjYpTLAIII.C7O3EqGw.mjs.map

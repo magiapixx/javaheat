@@ -1,0 +1,59 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/subpages/about.html" },
+    { "source": "/blog", "destination": "/subpages/blog.html" },
+    {
+      "source": "/blog/breakthroughs-powering-manufacturing-efficiency",
+      "destination": "/subpages/blog_breakthroughs-powering-manufacturing-efficiency.html"
+    },
+    {
+      "source": "/blog/how-automation-is-shaping-the-future-of-manufacturing",
+      "destination": "/subpages/blog_how-automation-is-shaping-the-future-of-manufacturing.html"
+    },
+    {
+      "source": "/blog/top-5-materials-revolutionizing-industrial-components",
+      "destination": "/subpages/blog_top-5-materials-revolutionizing-industrial-components.html"
+    },
+    { "source": "/case-study", "destination": "/subpages/case-study.html" },
+    {
+      "source": "/case-study/additive-manufacturing-for-custom-tooling",
+      "destination": "/subpages/case-study_additive-manufacturing-for-custom-tooling.html"
+    },
+    {
+      "source": "/case-study/automated-assembly-line-optimization",
+      "destination": "/subpages/case-study_automated-assembly-line-optimization.html"
+    },
+    {
+      "source": "/case-study/lightweight-castings-for-industrial-equipment",
+      "destination": "/subpages/case-study_lightweight-castings-for-industrial-equipment.html"
+    },
+    {
+      "source": "/case-study/precision-cnc-milling-for-automotive-components",
+      "destination": "/subpages/case-study_precision-cnc-milling-for-automotive-components.html"
+    },
+    { "source": "/contact", "destination": "/subpages/contact.html" },
+    {
+      "source": "/legal-pages/privacy-policy",
+      "destination": "/subpages/legal-pages_privacy-policy.html"
+    },
+    { "source": "/product", "destination": "/subpages/product.html" },
+    { "source": "/service", "destination": "/subpages/service.html" },
+    {
+      "source": "/service/cnc-machining-services",
+      "destination": "/subpages/service_cnc-machining-services.html"
+    },
+    {
+      "source": "/service/injection-molding",
+      "destination": "/subpages/service_injection-molding.html"
+    },
+    {
+      "source": "/service/product-assembly",
+      "destination": "/subpages/service_product-assembly.html"
+    },
+    {
+      "source": "/service/sheet-metal-fabrication",
+      "destination": "/subpages/service_sheet-metal-fabrication.html"
+    },
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}

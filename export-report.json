@@ -1,0 +1,13 @@
+{
+  "source": "https://youthful-blackberry-142998.framer.app/",
+  "platform": "framer",
+  "captureMode": "html-with-runtime",
+  "generatedAt": "2026-11-25T01:44:26.978Z",
+  "assets": 921,
+  "failedAssets": [],
+  "subpages": 18,
+  "visualValidation": "not-run",
+  "limitations": [
+    "Server-side accounts, payments, search and form processing are not exported."
+  ]
+}
